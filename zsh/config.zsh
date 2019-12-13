@@ -1,6 +1,6 @@
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
-
+ 
 fpath=($ZSH/functions $fpath)
 
 autoload -U $ZSH/functions/*(:t)
@@ -37,3 +37,7 @@ bindkey '^[[5D' beginning-of-line
 bindkey '^[[5C' end-of-line
 bindkey '^[[3~' delete-char
 bindkey '^?' backward-delete-char
+
+export PATH=$PATH:~/.composer/vendor/bin
+export PATH="/usr/local/opt/php@7.3/bin:$PATH"
+export PATH="/usr/local/opt/php@7.3/sbin:$PATH"
