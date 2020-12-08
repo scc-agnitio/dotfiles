@@ -1,12 +1,14 @@
 alias reload!='. ~/.zshrc'
 alias sourcez='source ~/.zshrc'
+
+alias showaliases='cat ~/.dotfiles/zsh/aliases.zsh'
 alias editalias='vi ~/.dotfiles/zsh/aliases.zsh'
 alias editaliases='vi ~/.dotfiles/zsh/aliases.zsh'
 
 alias cls='clear' # Good 'ol Clear Screen command
 alias ll='ls -lah' # ls
 alias lah='ls -lah' #ls
-alias code='cd ~/Code'
+alias ccode='cd ~/Code'
 alias ccd='composer dump autoload'
 alias aac='php artisan clear-compiled'
 alias artt='php artisan'
@@ -17,6 +19,7 @@ alias cpkey='echo wmczF48s0EbhwNQ2ZAnsS76VIy | pbcopy'
 alias cppat='echo 97ea639d0404c52b4fe4ca6136844f33e675c459 | pbcopy'
 alias rgg='cd ~/Code/rainmaker-gateway'
 alias rma='cd ~/Code/rainmaker-admin'
+alias rmw='cd ~/Code/remote-web'
 alias rmadmin='cd ~/Code/rainmaker-admin'
 alias chh='cd ~/Code/challenger'
 alias dkr='cd ~/projects/dckr'
